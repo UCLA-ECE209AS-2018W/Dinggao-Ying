@@ -13,11 +13,24 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 # ERIKA Integration
 
+OIL file: is a part of real time OS source code, which is generated and compiled together with the application. There are two parts: a set of definitions and a set of declaration part of configuring a specific kernel. The first part mainly defines the data types, constants and kernel objects that need to be provided in the declaration part for configuring a specific kernel, which is similar to C struct declaration. And the declaration part is used to specify which objects are really present in a particular application.
+
+Code.cpp: contains the task functions of each ECU, for example, read the sensor data and send the data through CAN bus protocol.
+
+
 # Hardware Architecture
+
+The following figure shows the view of hardware architecture. Firstly, we used Arduino boards with various sensors to emulate ECUs of the car. And connected each ECU through CAN bus protocol. More specifically, we have five Arduino boards (or ECUs) in our work, four of them connect with sensors, such as distance sensor, temperature sensor, water depth sensor, and accelerometer sensor. Once it got the data from sensor, it would send the data to CAN bus with a unique ID. The last Arduino boards (or ECUs) is used to receive all the message from the CAN bus.
 
 # Software Architecture
 
+Our testbed system is based on Erika 3. The application of each Arduino (or ECU) is defined at the Code.cpp file, and the corresponding library is included in OIL file.
+
+
 # Attack Simulation Setup
+
+As for attack simulation, we built a framework of sensor level attack. We used Python to extract the sensor data via Serial before the data sending to CAN bus, and used various type of attack function to change the data. In this way, the data sent to CAN bus is the wrong or attacked data. For example, the ECU with distance sensor, the regular step is getting the duration of sound traveling from, computing the distance based on the time, and sending the data to CAN bus. However, we inject our python code to the application, before the data sending to CAN bus (right after computing the distance), we get the data, change the data with various attack functions, and send it back. The attacked data then was sent to the CAN bus, which mean the CAN bus receiver will miss the original data.
+
 
 # Future Work
 
