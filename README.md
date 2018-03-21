@@ -1,19 +1,27 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/UCLA-ECE209AS-2018W/Dinggao-Ying/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# Car Emulator Testbed
+### Contribute by: Ying Wang, Dinggao Pan
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+# Incentive
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Background
+## 1. AutoSAR
+## 2. ERIKA
 
-```markdown
-Syntax highlighted code block
+# Hardware Choices
 
-# Header 1
-## Header 2
-### Header 3
+# ERIKA Integration
+
+# Hardware Architecture
+
+# Software Architecture
+
+# Attack Simulation Setup
+
+# Future Work
+
+# References
 
 - Bulleted
 - List
@@ -27,11 +35,5 @@ Syntax highlighted code block
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/UCLA-ECE209AS-2018W/Dinggao-Ying/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
