@@ -27,13 +27,13 @@ The following figure shows the view of hardware architecture. Firstly, we used A
 
 # Software Architecture
 
-The following figure presents the overview of software architecture. Our testbed system is based on Erika 3. The application of each Arduino (or ECU) is defined at the Code.cpp file, and the corresponding library is included in OIL file.
+The following figure presents the overview of software architecture. Our testbed system is based on Erika 3. The application of each Arduino (or ECU) is defined at the Code.cpp file, and the corresponding library is included in OIL file. More specifically, the sending ECUs transfer the analog data to digital data, convert the data to 8-byte char array, and send the message to the CAN bus with unique ID. And the receiving ECU will analyze the message and send it to the control system. Currently, we used Serial print line for control system. For example, when the CAN bus got the distance sensor data suddenly decreases, it will result in "gas down".
 
 ![alt_text](https://github.com/UCLA-ECE209AS-2018W/Dinggao-Ying/blob/master/Software%20Architecture.png)
 
 # Attack Simulation Setup
 
-As for attack simulation, we built a framework of sensor level attack, the overview of the attack is shown as the following figure. We used Python to extract the sensor data via Serial before the data sending to CAN bus, and used various type of attack function to change the data. In this way, the data sent to CAN bus is the wrong or attacked data. For example, the ECU with distance sensor, the regular step is getting the duration of sound traveling from, computing the distance based on the time, and sending the data to CAN bus. However, we inject our python code to the application, before the data sending to CAN bus (right after computing the distance), we get the data, change the data with various attack functions, and send it back. The attacked data then was sent to the CAN bus, which mean the CAN bus receiver will miss the original data.
+As for attack simulation, we built a framework of sensor level attack, the overview of the attack is shown as the following figure. We used multi-thread Python to extract each sensor data via Serial ports before the data sending to CAN bus, and used various type of attack functions to change the data. In this way, the data sent to CAN bus is the wrong or in other words is the attacked data. For example, the ECU with distance sensor, the regular step is getting the duration of sound traveling, computing the distance based on the time, and sending the data to CAN bus. However, we inject our multi-thread python code to the application; before the data sending to CAN bus (right after computing the distance), we get the data, change the data with various attack functions, and send it back. The attacked data then was sent to the CAN bus, which mean the CAN bus receiver will miss the original data. And the attacked data will lead false control system.
 
 ![alt_text](https://github.com/UCLA-ECE209AS-2018W/Dinggao-Ying/blob/master/attack%20view.png)
 
