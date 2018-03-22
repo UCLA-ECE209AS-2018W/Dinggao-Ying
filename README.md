@@ -33,11 +33,15 @@ The following figure presents the overview of software architecture. Our testbed
 
 # Attack Simulation Setup
 
-As for attack simulation, we built a framework of sensor level attack, the overview of the attack is shown as the following figure. We used multi-thread Python to extract each sensor data via Serial ports before the data sending to CAN bus, and used various type of attack functions to change the data. In this way, the data sent to CAN bus is the wrong or in other words is the attacked data. For example, the ECU with distance sensor, the regular step is getting the duration of sound traveling, computing the distance based on the time, and sending the data to CAN bus. However, we inject our multi-thread python code to the application; before the data sending to CAN bus (right after computing the distance), we get the data, change the data with various attack functions, and send it back. The attacked data then was sent to the CAN bus, which mean the CAN bus receiver will miss the original data. And the attacked data will lead false control system.
+As for attack simulation, we built a framework of real-time sensor level attack, the overview of the attack is shown as the following figure. We used multi-thread Python to linsten each sensor data via Serial ports and used various types of attack functions to change the data before the data sending to CAN bus. In this way, the data sent to CAN bus is the wrong or in other words is the attacked data. For example, the ECU with distance sensor, the regular step is getting the duration of sound traveling, computing the distance based on the time, and sending the data to CAN bus. However, we inject our multi-thread python code to the application; before the data sending to CAN bus (right after computing the distance), we get the data, change the data with various attack functions, and send it back. The attacked data then was sent to the CAN bus, which mean the CAN bus receiver will not the original data. And the attacked data could lead false control system. 
 
 ![alt_text](https://github.com/UCLA-ECE209AS-2018W/Dinggao-Ying/blob/master/attack%20view.png)
 
+# Attack Demo Video
 
+The following link shows the video of attacking on sensor level. In the video, we show the attacks on distance sensor and water depth sensor. We assume the distance sensor is for the automonous cruise control (ACC) system, which will follow the front car in a certain range, if the distance gets further, it will send the message to control system to speed up, and vice versa. As for the hacking system, we will change the original data to miss lead the control system. As the video shows, when the distance gets closer, the control system will speed up.
+
+https://youtu.be/KrLcR4p-Xyg
 
 # Future Work
 
@@ -49,9 +53,9 @@ As for attack simulation, we built a framework of sensor level attack, the overv
 1. Numbered
 2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+
+
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
