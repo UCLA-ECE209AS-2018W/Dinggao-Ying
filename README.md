@@ -58,3 +58,33 @@ As for attack simulation, we built a framework of real-time sensor level attack,
 The following link shows the video of attacking on sensor level. In the video, we show the attacks on distance sensor and water depth sensor. We assume the distance sensor is for the automonous cruise control (ACC) system, which will follow the front car in a certain range, if the distance gets further, it will send the message to control system to speed up, and vice versa. As for the hacking system, we will change the original data to miss lead the control system. As the video shows, when the distance gets closer, the control system will speed up.
 
 https://youtu.be/KrLcR4p-Xyg
+
+
+# Reference
+
+[1] Ishtiaq Roufa, Rob Millerb, et al. "Security and privacy vulnerabilities of in-car wireless networks: A tire pressure monitoring system case study." 19th USENIX Security Symposium, Washington DC. 2010.
+
+[2] Miller, Charlie, and Chris Valasek. "Remote exploitation of an unaltered passenger vehicle." Black Hat USA 2015 (2015).
+
+[3] Miller, C., Valasek, C.: Car Hacking: For Poories
+
+[4] Smith, C.: Car Hacker’s Handbook
+
+[5] Fürst, Simon, et al. "AUTOSAR–A Worldwide Standard is on the Road." 14th International VDI Congress Electronic Systems for Vehicles, Baden-Baden. Vol. 62. 2009.
+
+[6] Ivanov, Radoslav, Miroslav Pajic, and Insup Lee. "Attack-resilient sensor fusion for safety-critical cyber-physical systems." ACM Transactions on Embedded Computing Systems (TECS) 15.1 (2016): 21.
+
+[7] ERIKA Enterprise Manual, Real-time made easy.
+http://download.tuxfamily.org/erika/webdownload/manuals_pdf/ee_refman_1_4_5.pdf, 2012.
+
+[8] RT-Druid reference manual, A tool for the design of embedded real-time systems.
+http://download.tuxfamily.org/erika/webdownload/manuals_pdf/rtdruid_refman_1_5.0.pdf, 2012.
+
+[9] ERIKA Enterprise Minimal API Manual multithreading on a thumb.
+http://download.tuxfamily.org/erika/webdownload/manuals_pdf/ee_minimal_refman_1_1_3.pdf, 2012
+
+[10] System Generation OIL: OSEK Implementation Language.
+http://www.irisa.fr/alf/downloads/puaut/TPNXT/images/oil25.pdf, 2004
+
+[11] ERIKA Enterprise, Current limitations and possible solutions.
+http://www.erika-enterprise.com/download/pub/erika_new_v7.pdf, 2016
