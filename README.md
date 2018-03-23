@@ -5,11 +5,29 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 # Incentive
 
+Nowadays, vehicles are not controlled directly by the operateors. Instead, automobiles are controlled by operators via tiny computers inside it - electronic controller units(ECUs). In modern day cars, there are on average around 80 ECUs controlling every aspect of the automobile, from engine to door lock. In advacned luxery cars, there are up to 150 ECUs in sided them. ECUs also collects infomation from sensors connected to them to inform drivers the situation of their cars. With all the ECUs and sensors installed, modern automobiles are prone to be attacked by two ways:
+  - Attack the controls command sent by ECUs;
+  - Attack the sensor data to affect the control or the judgement of the drivers;
+The attacks can be done via two methods:
+  - Offline attacks through OBD-II
+  - Online attacks through internet connection of the car or wireless sensors attached to the car;
+The car emulator testbed is designed to simulate various attacks on the car without having to endanger the driver and provide the actual data collected from uncompromised and attacked sensors. 
+ 
 # Background
-## 1. AutoSAR
-## 2. ERIKA
+ ## 1. AutoSAR
+AutoSAR starts from 2003 aims at developing a universal cross-brand cross-platform software architecture that will have standardized APIs. We choose to work under this framework to give the most credibility to our simulation results. The architecture of AutoSAR isgiven as following:
+ - Basic Sofwares, serves as lower level APIs for application level;
+ - Runtime Environment, defines the communication protocol of the inter and intra-ECUS messages;
+ - Application, the user defined software running on ECUs.
+ ## 2. ERIKA
+Erika is an open sources RTOS that comply with AutoSAR standards. We choose this framework for the potential of extending it onto multicore platform as well as the potential of co-development along with embedded linux. 
 
 # Hardware Choices
+
+Erika supports a variety of hardware platforms. Unfortunetly, more powerful ECUs are not available immediately. After some research into the architectures supported by ERIKA, we decide to go with AVR8 which is implemnted on Arudinos. There are several reasons for this choice: 
+ - The ability to extended with CAN bus via Arduino CAN bus Shield;
+ - Various supports on sensors and other communication protocol such as SPI, I2C if needed;
+ - Immediate Availability;
 
 # ERIKA Integration
 
