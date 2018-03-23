@@ -1,0 +1,18 @@
+
+# Timeline
+### Week 5
+Initial Investigation on AotuSAR, ERIKA and other choices of framework to be used;
+Decision on going on with ERIKA V3 as our basic framework
+### Week 6
+Research into hardware choices for network setup;
+Research into how to use ERIKA on Arduino;
+### Week 7
+Successfully use basic Task architecture of ERIKA on Arduino;
+Decision on Sensors;
+### Week 8
+Completed sensor network on CAN using arduino;
+Start constructing Sensor network within ERIKA architecture;
+### Week 9
+Completed sensor network within ERIKA;
+Start discussion on attack simulation framework;
+### Week 10
