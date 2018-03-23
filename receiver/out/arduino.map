@@ -1,0 +1,1398 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+                              obj/code.cpp.o (delay)
+/home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+                              obj/SPI.cpp.o (pinMode)
+/home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+                              obj/code.cpp.o (_ZN14HardwareSerial5beginEmh)
+/home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+                              obj/code.cpp.o (Serial)
+/home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+                              /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o) (_ZN5Print5writeEPKhj)
+/home/yvonne/receiver/erika/lib/libarduinosdk.a(hooks.c.o)
+                              /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o) (yield)
+/home/yvonne/receiver/erika/lib/libarduinosdk.a(abi.cpp.o)
+                              /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o) (__cxa_pure_virtual)
+/home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+                              obj/code.cpp.o (StartOS)
+/home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_entry_points.c.o)
+                              /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o) (osEE_scheduler_task_end)
+/home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+                              /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o) (osEE_scheduler_task_activated)
+/home/yvonne/receiver/erika/lib/libee.a(ee_atmega_intvect.c.o)
+                              /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o) (osEE_atmega_intvect)
+/home/yvonne/receiver/erika/lib/libee.a(ee_avr8_asm.S.o)
+                              /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o) (osEE_hal_save_ctx_and_ready2stacked)
+/home/yvonne/receiver/erika/lib/libee.a(ee_std_change_context.c.o)
+                              /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o) (osEE_change_context_from_running)
+/home/yvonne/receiver/erika/lib/libee.a(ee_oo_scheduler.c.o)
+                              /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o) (osEE_scheduler_core_rq_preempt_stk)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(addsf3.o)
+                              /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o) (__subsf3)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(addsf3x.o)
+                              /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(addsf3.o) (__addsf3x)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(cmpsf2.o)
+                              /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o) (__ltsf2)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(divsf3.o)
+                              /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o) (__divsf3)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(divsf3x.o)
+                              /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(divsf3.o) (__divsf3x)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+                              /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o) (__fixunssfsi)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(floatsisf.o)
+                              /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o) (__floatunsisf)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_cmp.o)
+                              /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(cmpsf2.o) (__fp_cmp)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_inf.o)
+                              /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_inf)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_nan.o)
+                              /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_nan)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_pscA.o)
+                              /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_pscA)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_pscB.o)
+                              /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_pscB)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_round.o)
+                              /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(addsf3.o) (__fp_round)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_split3.o)
+                              /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_split3)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_zero.o)
+                              /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_zero)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(gesf2.o)
+                              /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o) (__gtsf2)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(mulsf3.o)
+                              /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o) (__mulsf3)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                              /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(mulsf3.o) (__mulsf3x)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(unordsf2.o)
+                              /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o) (__unordsf2)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+                              /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o) (__udivmodsi4)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+                              /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o (exit)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+                              obj/mcp_can.cpp.o (__tablejump2__)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+                              obj/code.cpp.o (__do_copy_data)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                              obj/SPI.cpp.o (__do_clear_bss)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+                              obj/code.cpp.o (__do_global_ctors)
+/home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libc.a(abort.o)
+                              /home/yvonne/receiver/erika/lib/libarduinosdk.a(abi.cpp.o) (abort)
+
+Allocating common symbols
+Common symbol       size              file
+
+KCB                 0x1               obj/ee_applcfg.c.o
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ .text          0x0000000000000000        0x0 obj/SPI.cpp.o
+ .data          0x0000000000000000        0x0 obj/SPI.cpp.o
+ .bss           0x0000000000000000        0x0 obj/SPI.cpp.o
+ .text._ZN8SPIClass3endEv
+                0x0000000000000000       0x28 obj/SPI.cpp.o
+ .text._ZN8SPIClass14usingInterruptEh
+                0x0000000000000000       0x38 obj/SPI.cpp.o
+ .text._ZN8SPIClass17notUsingInterruptEh
+                0x0000000000000000       0x36 obj/SPI.cpp.o
+ .text          0x0000000000000000        0x0 obj/code.cpp.o
+ .data          0x0000000000000000        0x0 obj/code.cpp.o
+ .bss           0x0000000000000000        0x0 obj/code.cpp.o
+ .text          0x0000000000000000        0x0 obj/ee_applcfg.c.o
+ .data          0x0000000000000000        0x0 obj/ee_applcfg.c.o
+ .bss           0x0000000000000000        0x0 obj/ee_applcfg.c.o
+ .group         0x0000000000000000        0x8 obj/mcp_can.cpp.o
+ .group         0x0000000000000000        0x8 obj/mcp_can.cpp.o
+ .group         0x0000000000000000        0x8 obj/mcp_can.cpp.o
+ .text          0x0000000000000000        0x0 obj/mcp_can.cpp.o
+ .data          0x0000000000000000        0x0 obj/mcp_can.cpp.o
+ .bss           0x0000000000000000        0x0 obj/mcp_can.cpp.o
+ .text._Z9txCtrlRegh
+                0x0000000000000000       0x14 obj/mcp_can.cpp.o
+ .text._Z16statusToTxBufferh
+                0x0000000000000000       0x16 obj/mcp_can.cpp.o
+ .text._Z14statusToTxSidhh
+                0x0000000000000000       0x16 obj/mcp_can.cpp.o
+ .text._Z11txSidhToRTSh
+                0x0000000000000000       0x1c obj/mcp_can.cpp.o
+ .text._Z14txSidhToTxLoadh
+                0x0000000000000000       0x1c obj/mcp_can.cpp.o
+ .text._Z8txIfFlagh
+                0x0000000000000000       0x14 obj/mcp_can.cpp.o
+ .text._Z19txStatusPendingFlagh
+                0x0000000000000000       0x14 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN21mcp2515_readRegisterSEhPhh
+                0x0000000000000000       0x84 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN20mcp2515_setRegisterSEhPKhh
+                0x0000000000000000       0x7e obj/mcp_can.cpp.o
+ .text._Z17mcp2515_id_to_bufhmPh
+                0x0000000000000000       0x4e obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN16mcp2515_write_idEhhm
+                0x0000000000000000       0x52 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN15mcp2515_read_idEhPhPm
+                0x0000000000000000       0xc4 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN22mcp2515_start_transmitEh
+                0x0000000000000000       0x36 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN20mcp2515_write_canMsgEhmhhhPVKh
+                0x0000000000000000       0xf0 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN19mcp2515_isTXBufFreeEPhh
+                0x0000000000000000       0x5e obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN24mcp2515_getNextFreeTXBufEPh
+                0x0000000000000000       0x90 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN17enableTxInterruptEb
+                0x0000000000000000       0x2a obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN9init_MaskEhhm
+                0x0000000000000000       0xac obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN9init_FiltEhhm
+                0x0000000000000000       0xdc obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN10sendMsgBufEhmhhhPVKh
+                0x0000000000000000       0x76 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN13trySendMsgBufEmhhhPKhh
+                0x0000000000000000       0x84 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN7sendMsgEmhhhPKhb
+                0x0000000000000000       0xec obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN10sendMsgBufEmhhhPKhb
+                0x0000000000000000       0x1a obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN10sendMsgBufEmhhPKhb
+                0x0000000000000000       0x26 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN12readMsgBufIDEPmPhS1_
+                0x0000000000000000       0x48 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN18checkClearRxStatusEPh
+                0x0000000000000000       0x1a obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN18checkClearTxStatusEPhh
+                0x0000000000000000       0x84 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN26clearBufferTransmitIfFlagsEh
+                0x0000000000000000       0x10 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN10checkErrorEv
+                0x0000000000000000        0xe obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN15isRemoteRequestEv
+                0x0000000000000000        0x6 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN15isExtendedFrameEv
+                0x0000000000000000        0x6 obj/mcp_can.cpp.o
+ .rodata.CSWTCH.58
+                0x0000000000000000        0x3 obj/mcp_can.cpp.o
+ .rodata.CSWTCH.56
+                0x0000000000000000        0x3 obj/mcp_can.cpp.o
+ .rodata.CSWTCH.52
+                0x0000000000000000        0xd obj/mcp_can.cpp.o
+ .rodata.CSWTCH.50
+                0x0000000000000000        0xd obj/mcp_can.cpp.o
+ .rodata.CSWTCH.48
+                0x0000000000000000        0x3 obj/mcp_can.cpp.o
+ .text          0x0000000000000000        0x0 obj/tasks.cpp.o
+ .data          0x0000000000000000        0x0 obj/tasks.cpp.o
+ .bss           0x0000000000000000        0x0 obj/tasks.cpp.o
+ .text          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+ .text.millis   0x0000000000000000       0x18 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+ .text.delayMicroseconds
+                0x0000000000000000       0x16 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+ .text.digitalRead
+                0x0000000000000000       0x52 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+ .progmem.data.port_to_input_PGM
+                0x0000000000000000        0xa /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+ .group         0x0000000000000000        0x8 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+ .text._ZN14HardwareSerial3endEv
+                0x0000000000000000       0x44 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+ .group         0x0000000000000000        0x8 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+ .group         0x0000000000000000        0x8 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+ .text._ZN5Print17availableForWriteEv
+                0x0000000000000000        0x6 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+ .text._ZN5Print5flushEv
+                0x0000000000000000        0x2 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+ .group         0x0000000000000000        0x8 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .group         0x0000000000000000        0x8 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .group         0x0000000000000000        0x8 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .group         0x0000000000000000        0x8 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print17availableForWriteEv
+                0x0000000000000000        0x6 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print5flushEv
+                0x0000000000000000        0x2 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print5printEPK19__FlashStringHelper
+                0x0000000000000000       0x48 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print5printERK6String
+                0x0000000000000000       0x1c /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print5printEc
+                0x0000000000000000        0xe /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print5printERK9Printable
+                0x0000000000000000       0x14 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print7printlnEPK19__FlashStringHelper
+                0x0000000000000000       0x24 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print7printlnERK6String
+                0x0000000000000000       0x24 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print7printlnEc
+                0x0000000000000000       0x24 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print7printlnERK9Printable
+                0x0000000000000000       0x24 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print5printEli
+                0x0000000000000000       0x94 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print5printEii
+                0x0000000000000000        0xe /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print7printlnEii
+                0x0000000000000000       0x2e /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print7printlnEli
+                0x0000000000000000       0x24 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print7printlnEhi
+                0x0000000000000000       0x2e /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print5printEji
+                0x0000000000000000        0xc /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print7printlnEmi
+                0x0000000000000000       0x24 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print10printFloatEdh
+                0x0000000000000000      0x1c4 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print5printEdi
+                0x0000000000000000        0x4 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print7printlnEdi
+                0x0000000000000000       0x24 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .rodata._ZTV5Print
+                0x0000000000000000        0xc /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(hooks.c.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(hooks.c.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(hooks.c.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(abi.cpp.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(abi.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(abi.cpp.o)
+ .text.__cxa_pure_virtual
+                0x0000000000000000        0x4 /home/yvonne/receiver/erika/lib/libarduinosdk.a(abi.cpp.o)
+ .text.__cxa_deleted_virtual
+                0x0000000000000000        0x4 /home/yvonne/receiver/erika/lib/libarduinosdk.a(abi.cpp.o)
+ .debug_info    0x0000000000000000       0x8a /home/yvonne/receiver/erika/lib/libarduinosdk.a(abi.cpp.o)
+ .debug_abbrev  0x0000000000000000       0x5c /home/yvonne/receiver/erika/lib/libarduinosdk.a(abi.cpp.o)
+ .debug_aranges
+                0x0000000000000000       0x28 /home/yvonne/receiver/erika/lib/libarduinosdk.a(abi.cpp.o)
+ .debug_ranges  0x0000000000000000       0x18 /home/yvonne/receiver/erika/lib/libarduinosdk.a(abi.cpp.o)
+ .debug_line    0x0000000000000000       0xe9 /home/yvonne/receiver/erika/lib/libarduinosdk.a(abi.cpp.o)
+ .debug_str     0x0000000000000000      0x163 /home/yvonne/receiver/erika/lib/libarduinosdk.a(abi.cpp.o)
+ .comment       0x0000000000000000       0x12 /home/yvonne/receiver/erika/lib/libarduinosdk.a(abi.cpp.o)
+ .debug_frame   0x0000000000000000       0x34 /home/yvonne/receiver/erika/lib/libarduinosdk.a(abi.cpp.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .text.DisableAllInterrupts
+                0x0000000000000000       0x12 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .text.EnableAllInterrupts
+                0x0000000000000000       0x1e /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .text.SuspendAllInterrupts
+                0x0000000000000000       0x22 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .text.ResumeAllInterrupts
+                0x0000000000000000       0x1c /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .text.SuspendOSInterrupts
+                0x0000000000000000       0x22 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .text.ResumeOSInterrupts
+                0x0000000000000000       0x1c /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .text.GetActiveApplicationMode
+                0x0000000000000000       0x18 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .text.ChainTask
+                0x0000000000000000       0x96 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .text.Schedule
+                0x0000000000000000       0x50 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .text.ShutdownOS
+                0x0000000000000000       0x34 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .text.GetTaskID
+                0x0000000000000000       0x58 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .text.GetTaskState
+                0x0000000000000000       0x7a /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_entry_points.c.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_entry_points.c.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_entry_points.c.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+ .text.osEE_scheduler_task_block_current
+                0x0000000000000000       0x4c /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+ .text.osEE_scheduler_task_unblocked
+                0x0000000000000000       0x62 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+ .text.osEE_scheduler_task_preemption_point
+                0x0000000000000000       0x32 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+ .text.osEE_scheduler_task_set_running
+                0x0000000000000000       0x50 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_atmega_intvect.c.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_atmega_intvect.c.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_atmega_intvect.c.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_avr8_asm.S.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_avr8_asm.S.o)
+ .avr.prop      0x0000000000000000       0x3a /home/yvonne/receiver/erika/lib/libee.a(ee_avr8_asm.S.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_std_change_context.c.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_std_change_context.c.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_std_change_context.c.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_scheduler.c.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_scheduler.c.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_scheduler.c.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(addsf3.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(addsf3.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(addsf3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(addsf3.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0xcc /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(cmpsf2.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(cmpsf2.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(cmpsf2.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xa /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(cmpsf2.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(divsf3.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(divsf3.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(divsf3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x8 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(divsf3.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0xdc /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x5e /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(floatsisf.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(floatsisf.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(floatsisf.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x7a /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(floatsisf.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_cmp.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_cmp.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_cmp.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x48 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_cmp.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xc /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x6 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_round.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_round.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_round.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x22 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_round.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x44 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(gesf2.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(gesf2.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(gesf2.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xa /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(gesf2.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x8 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0xd2 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(unordsf2.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(unordsf2.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(unordsf2.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xa /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a(unordsf2.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .text.libgcc   0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .text          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libc.a(abort.o)
+ .data          0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libc.a(abort.o)
+ .bss           0x0000000000000000        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libc.a(abort.o)
+ .text.avr-libc
+                0x0000000000000000        0xa /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libc.a(abort.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+LOAD obj/SPI.cpp.o
+LOAD obj/code.cpp.o
+LOAD obj/ee_applcfg.c.o
+LOAD obj/mcp_can.cpp.o
+LOAD obj/tasks.cpp.o
+START GROUP
+LOAD /home/yvonne/receiver/erika/lib/libarduinosdk.a
+LOAD /home/yvonne/receiver/erika/lib/libee.a
+END GROUP
+LOAD /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a
+START GROUP
+LOAD /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a
+LOAD /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a
+LOAD /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libc.a
+LOAD /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libatmega328p.a
+END GROUP
+                0x0000000000020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x000000000000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x1b62
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table._ZN7MCP_CAN18mcp2515_configRateEhh
+                0x0000000000000068       0x48 obj/mcp_can.cpp.o
+                0x00000000000000b0                . = ALIGN (0x2)
+                0x00000000000000b0                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000000000000b0        0x0 linker stubs
+ *(.trampolines*)
+                0x00000000000000b0                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data.digital_pin_to_timer_PGM
+                0x00000000000000b0       0x14 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+                0x00000000000000b0                digital_pin_to_timer_PGM
+ .progmem.data.digital_pin_to_bit_mask_PGM
+                0x00000000000000c4       0x14 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+                0x00000000000000c4                digital_pin_to_bit_mask_PGM
+ .progmem.data.digital_pin_to_port_PGM
+                0x00000000000000d8       0x14 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+                0x00000000000000d8                digital_pin_to_port_PGM
+ .progmem.data.port_to_output_PGM
+                0x00000000000000ec        0xa /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+                0x00000000000000ec                port_to_output_PGM
+ .progmem.data.port_to_mode_PGM
+                0x00000000000000f6        0xa /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+                0x00000000000000f6                port_to_mode_PGM
+                0x0000000000000100                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000000100                __ctors_start = .
+ *(.ctors)
+ .ctors         0x0000000000000100        0x2 obj/code.cpp.o
+ .ctors         0x0000000000000102        0x2 obj/tasks.cpp.o
+ .ctors         0x0000000000000104        0x2 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+                0x0000000000000106                __ctors_end = .
+                0x0000000000000106                __dtors_start = .
+ *(.dtors)
+                0x0000000000000106                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000106        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000106                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000106        0xc /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000112       0x16 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000112                __do_copy_data
+ .init4         0x0000000000000128       0x10 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                0x0000000000000128                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x0000000000000138       0x16 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+                0x0000000000000138                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000000000014e        0x8 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x0000000000000156        0x4 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000156                __vector_22
+                0x0000000000000156                __vector_1
+                0x0000000000000156                __vector_24
+                0x0000000000000156                __vector_12
+                0x0000000000000156                __bad_interrupt
+                0x0000000000000156                __vector_6
+                0x0000000000000156                __vector_3
+                0x0000000000000156                __vector_23
+                0x0000000000000156                __vector_25
+                0x0000000000000156                __vector_11
+                0x0000000000000156                __vector_13
+                0x0000000000000156                __vector_17
+                0x0000000000000156                __vector_7
+                0x0000000000000156                __vector_5
+                0x0000000000000156                __vector_4
+                0x0000000000000156                __vector_9
+                0x0000000000000156                __vector_2
+                0x0000000000000156                __vector_21
+                0x0000000000000156                __vector_15
+                0x0000000000000156                __vector_8
+                0x0000000000000156                __vector_14
+                0x0000000000000156                __vector_10
+                0x0000000000000156                __vector_20
+ *fill*         0x000000000000015a        0x2 
+ .text          0x000000000000015c       0xe4 /home/yvonne/receiver/erika/lib/libee.a(ee_avr8_asm.S.o)
+                0x000000000000015c                osEE_hal_save_ctx_and_restore_ctx
+                0x000000000000019c                osEE_hal_restore_ctx
+                0x00000000000001dc                osEE_hal_ready2stacked
+                0x00000000000001ec                osEE_hal_save_ctx_and_ready2stacked
+                0x000000000000022c                osEE_hal_terminate_ctx
+                0x0000000000000240                . = ALIGN (0x2)
+ *(.text.*)
+ .text._ZN8SPIClass5beginEv
+                0x0000000000000240       0x6c obj/SPI.cpp.o
+                0x0000000000000240                _ZN8SPIClass5beginEv
+ .text.loop     0x00000000000002ac       0x4c obj/code.cpp.o
+                0x00000000000002ac                loop
+ .text.setup    0x00000000000002f8       0x5e obj/code.cpp.o
+                0x00000000000002f8                setup
+ .text.idle_hook
+                0x0000000000000356       0x12 obj/code.cpp.o
+                0x0000000000000356                idle_hook
+ .text.startup.main
+                0x0000000000000368       0x14 obj/code.cpp.o
+                0x0000000000000368                main
+ .text.startup._GLOBAL__sub_I_led
+                0x000000000000037c        0xa obj/code.cpp.o
+ .text._ZN8SPIClass16beginTransactionE11SPISettings
+                0x0000000000000386       0x34 obj/mcp_can.cpp.o
+                0x0000000000000386                _ZN8SPIClass16beginTransactionE11SPISettings
+ .text._ZN8SPIClass8transferEh
+                0x00000000000003ba        0xe obj/mcp_can.cpp.o
+                0x00000000000003ba                _ZN8SPIClass8transferEh
+ .text._ZN8SPIClass14endTransactionEv
+                0x00000000000003c8       0x22 obj/mcp_can.cpp.o
+                0x00000000000003c8                _ZN8SPIClass14endTransactionEv
+ .text._ZN7MCP_CAN13mcp2515_resetEv
+                0x00000000000003ea       0x38 obj/mcp_can.cpp.o
+                0x00000000000003ea                _ZN7MCP_CAN13mcp2515_resetEv
+ .text._ZN7MCP_CAN20mcp2515_readRegisterEh
+                0x0000000000000422       0x44 obj/mcp_can.cpp.o
+                0x0000000000000422                _ZN7MCP_CAN20mcp2515_readRegisterEh
+ .text._ZN7MCP_CAN19mcp2515_setRegisterEhh
+                0x0000000000000466       0x56 obj/mcp_can.cpp.o
+                0x0000000000000466                _ZN7MCP_CAN19mcp2515_setRegisterEhh
+ .text._ZN7MCP_CAN22mcp2515_modifyRegisterEhhh
+                0x00000000000004bc       0x62 obj/mcp_can.cpp.o
+                0x00000000000004bc                _ZN7MCP_CAN22mcp2515_modifyRegisterEhhh
+ .text._ZN7MCP_CAN18mcp2515_readStatusEv
+                0x000000000000051e       0x3c obj/mcp_can.cpp.o
+                0x000000000000051e                _ZN7MCP_CAN18mcp2515_readStatusEv
+ .text._ZN7MCP_CAN23mcp2515_setCANCTRL_ModeEh
+                0x000000000000055a       0x30 obj/mcp_can.cpp.o
+                0x000000000000055a                _ZN7MCP_CAN23mcp2515_setCANCTRL_ModeEh
+ .text._ZN7MCP_CAN18mcp2515_configRateEhh
+                0x000000000000058a      0x138 obj/mcp_can.cpp.o
+                0x000000000000058a                _ZN7MCP_CAN18mcp2515_configRateEhh
+ .text._ZN7MCP_CAN22mcp2515_initCANBuffersEv
+                0x00000000000006c2       0x4c obj/mcp_can.cpp.o
+                0x00000000000006c2                _ZN7MCP_CAN22mcp2515_initCANBuffersEv
+ .text._ZN7MCP_CAN12mcp2515_initEhh
+                0x000000000000070e       0xba obj/mcp_can.cpp.o
+                0x000000000000070e                _ZN7MCP_CAN12mcp2515_initEhh
+ .text._ZN7MCP_CAN19mcp2515_read_canMsgEhPVmPVhS3_S3_S3_
+                0x00000000000007c8      0x16c obj/mcp_can.cpp.o
+                0x00000000000007c8                _ZN7MCP_CAN19mcp2515_read_canMsgEhPVmPVhS3_S3_S3_
+ .text._ZN7MCP_CAN7init_CSEh
+                0x0000000000000934       0x26 obj/mcp_can.cpp.o
+                0x0000000000000934                _ZN7MCP_CAN7init_CSEh
+ .text._ZN7MCP_CANC2Eh
+                0x000000000000095a       0x10 obj/mcp_can.cpp.o
+                0x000000000000095a                _ZN7MCP_CANC1Eh
+                0x000000000000095a                _ZN7MCP_CANC2Eh
+ .text._ZN7MCP_CAN5beginEhh
+                0x000000000000096a       0x3c obj/mcp_can.cpp.o
+                0x000000000000096a                _ZN7MCP_CAN5beginEhh
+ .text._ZN7MCP_CAN12readMsgBufIDEhPVmPVhS3_S3_S3_
+                0x00000000000009a6       0x7e obj/mcp_can.cpp.o
+                0x00000000000009a6                _ZN7MCP_CAN12readMsgBufIDEhPVmPVhS3_S3_S3_
+ .text._ZN7MCP_CAN14readRxTxStatusEv
+                0x0000000000000a24       0x32 obj/mcp_can.cpp.o
+                0x0000000000000a24                _ZN7MCP_CAN14readRxTxStatusEv
+ .text._ZN7MCP_CAN10readMsgBufEPhS0_
+                0x0000000000000a56       0x42 obj/mcp_can.cpp.o
+                0x0000000000000a56                _ZN7MCP_CAN10readMsgBufEPhS0_
+ .text._ZN7MCP_CAN12checkReceiveEv
+                0x0000000000000a98       0x10 obj/mcp_can.cpp.o
+                0x0000000000000a98                _ZN7MCP_CAN12checkReceiveEv
+ .text._ZN7MCP_CAN8getCanIdEv
+                0x0000000000000aa8        0xc obj/mcp_can.cpp.o
+                0x0000000000000aa8                _ZN7MCP_CAN8getCanIdEv
+ .text.FuncTaskL1
+                0x0000000000000ab4      0x29a obj/tasks.cpp.o
+                0x0000000000000ab4                FuncTaskL1
+ .text.startup._GLOBAL__sub_I_TaskL1_count
+                0x0000000000000d4e        0xa obj/tasks.cpp.o
+ .text.__vector_16
+                0x0000000000000d58       0x94 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+                0x0000000000000d58                __vector_16
+ .text.micros   0x0000000000000dec       0x4a /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+                0x0000000000000dec                micros
+ .text.delay    0x0000000000000e36       0x78 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+                0x0000000000000e36                delay
+ .text.init     0x0000000000000eae       0x76 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+                0x0000000000000eae                init
+ .text.turnOffPWM
+                0x0000000000000f24       0x52 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+ .text.pinMode  0x0000000000000f76       0x78 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+                0x0000000000000f76                pinMode
+ .text.digitalWrite
+                0x0000000000000fee       0x60 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+                0x0000000000000fee                digitalWrite
+ .text._ZN14HardwareSerial9availableEv
+                0x000000000000104e       0x18 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+                0x000000000000104e                _ZN14HardwareSerial9availableEv
+ .text._ZN14HardwareSerial4peekEv
+                0x0000000000001066       0x1c /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+                0x0000000000001066                _ZN14HardwareSerial4peekEv
+ .text._ZN14HardwareSerial4readEv
+                0x0000000000001082       0x28 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+                0x0000000000001082                _ZN14HardwareSerial4readEv
+ .text._ZN14HardwareSerial17availableForWriteEv
+                0x00000000000010aa       0x1e /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+                0x00000000000010aa                _ZN14HardwareSerial17availableForWriteEv
+ .text._Z14serialEventRunv
+                0x00000000000010c8       0x1c /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+                0x00000000000010c8                _Z14serialEventRunv
+ .text._ZN14HardwareSerial17_tx_udr_empty_irqEv
+                0x00000000000010e4       0x42 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+                0x00000000000010e4                _ZN14HardwareSerial17_tx_udr_empty_irqEv
+ .text._ZN14HardwareSerial5flushEv
+                0x0000000000001126       0x44 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+                0x0000000000001126                _ZN14HardwareSerial5flushEv
+ .text._ZN14HardwareSerial5writeEh
+                0x000000000000116a       0x8e /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+                0x000000000000116a                _ZN14HardwareSerial5writeEh
+ .text._ZN14HardwareSerial5beginEmh
+                0x00000000000011f8       0xca /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+                0x00000000000011f8                _ZN14HardwareSerial5beginEmh
+ .text.__vector_18
+                0x00000000000012c2       0x64 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+                0x00000000000012c2                __vector_18
+ .text.__vector_19
+                0x0000000000001326       0x4c /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+                0x0000000000001326                __vector_19
+ .text._Z17Serial0_availablev
+                0x0000000000001372       0x14 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+                0x0000000000001372                _Z17Serial0_availablev
+ .text.startup._GLOBAL__sub_I___vector_18
+                0x0000000000001386       0x5a /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+ .text._ZN5Print5writeEPKhj
+                0x00000000000013e0       0x56 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+                0x00000000000013e0                _ZN5Print5writeEPKhj
+ .text._ZN5Print5writeEPKc
+                0x0000000000001436       0x2a /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+                0x0000000000001436                _ZN5Print5writeEPKc
+ .text._ZN5Print5printEPKc
+                0x0000000000001460        0x4 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+                0x0000000000001460                _ZN5Print5printEPKc
+ .text._ZN5Print7printlnEv
+                0x0000000000001464        0x8 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+                0x0000000000001464                _ZN5Print7printlnEv
+ .text._ZN5Print7printlnEPKc
+                0x000000000000146c       0x24 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+                0x000000000000146c                _ZN5Print7printlnEPKc
+ .text._ZN5Print11printNumberEmh
+                0x0000000000001490       0x92 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+                0x0000000000001490                _ZN5Print11printNumberEmh
+ .text._ZN5Print5printEmi
+                0x0000000000001522       0x1a /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+                0x0000000000001522                _ZN5Print5printEmi
+ .text._ZN5Print5printEhi
+                0x000000000000153c        0xe /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+                0x000000000000153c                _ZN5Print5printEhi
+ .text._ZN5Print7printlnEji
+                0x000000000000154a       0x2c /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+                0x000000000000154a                _ZN5Print7printlnEji
+ .text.__empty  0x0000000000001576        0x2 /home/yvonne/receiver/erika/lib/libarduinosdk.a(hooks.c.o)
+                0x0000000000001576                yield
+ .text.StartOS  0x0000000000001578       0x72 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+                0x0000000000001578                StartOS
+ .text.ActivateTask
+                0x00000000000015ea       0x50 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+                0x00000000000015ea                ActivateTask
+ .text.TerminateTask
+                0x000000000000163a       0x1e /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+                0x000000000000163a                TerminateTask
+ .text.osEE_scheduler_task_end
+                0x0000000000001658       0x30 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_entry_points.c.o)
+                0x0000000000001658                osEE_scheduler_task_end
+ .text.osEE_scheduler_task_wrapper_restore
+                0x0000000000001688        0x2 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_entry_points.c.o)
+                0x0000000000001688                osEE_scheduler_task_wrapper_restore
+ .text.osEE_scheduler_task_wrapper_run
+                0x000000000000168a       0x24 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_entry_points.c.o)
+                0x000000000000168a                osEE_scheduler_task_wrapper_run
+ .text.osEE_idle_hook_wrapper
+                0x00000000000016ae       0x40 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_entry_points.c.o)
+                0x00000000000016ae                osEE_idle_hook_wrapper
+ .text.osEE_scheduler_task_activated
+                0x00000000000016ee       0xce /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+                0x00000000000016ee                osEE_scheduler_task_activated
+ .text.osEE_scheduler_task_terminated
+                0x00000000000017bc       0xf4 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+                0x00000000000017bc                osEE_scheduler_task_terminated
+ .text.__vector_default
+                0x00000000000018b0        0x4 /home/yvonne/receiver/erika/lib/libee.a(ee_atmega_intvect.c.o)
+                0x00000000000018b0                __vector_default
+                0x00000000000018b0                tag___vector_default
+ .text.osEE_atmega_intvect
+                0x00000000000018b4        0x4 /home/yvonne/receiver/erika/lib/libee.a(ee_atmega_intvect.c.o)
+                0x00000000000018b4                osEE_atmega_intvect
+ .text.osEE_change_context_from_running
+                0x00000000000018b8       0x38 /home/yvonne/receiver/erika/lib/libee.a(ee_std_change_context.c.o)
+                0x00000000000018b8                osEE_change_context_from_running
+ .text.osEE_change_context_from_task_end
+                0x00000000000018f0       0x2e /home/yvonne/receiver/erika/lib/libee.a(ee_std_change_context.c.o)
+                0x00000000000018f0                osEE_change_context_from_task_end
+ .text.osEE_idle_task_terminate
+                0x000000000000191e       0x36 /home/yvonne/receiver/erika/lib/libee.a(ee_std_change_context.c.o)
+                0x000000000000191e                osEE_idle_task_terminate
+ .text.osEE_scheduler_core_rq_preempt_stk
+                0x0000000000001954       0xae /home/yvonne/receiver/erika/lib/libee.a(ee_oo_scheduler.c.o)
+                0x0000000000001954                osEE_scheduler_core_rq_preempt_stk
+ .text.osEE_sn_priority_insert
+                0x0000000000001a02       0xaa /home/yvonne/receiver/erika/lib/libee.a(ee_oo_scheduler.c.o)
+                0x0000000000001a02                osEE_sn_priority_insert
+ .text.osEE_scheduler_rq_insert
+                0x0000000000001aac        0xe /home/yvonne/receiver/erika/lib/libee.a(ee_oo_scheduler.c.o)
+                0x0000000000001aac                osEE_scheduler_rq_insert
+ .text.osEE_scheduler_core_pop_running
+                0x0000000000001aba       0x54 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_scheduler.c.o)
+                0x0000000000001aba                osEE_scheduler_core_pop_running
+ .text.libgcc.div
+                0x0000000000001b0e       0x44 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+                0x0000000000001b0e                __udivmodsi4
+ .text.libgcc   0x0000000000001b52        0xc /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+                0x0000000000001b52                __tablejump2__
+                0x0000000000001b5e                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000001b5e        0x0 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+                0x0000000000001b5e                exit
+                0x0000000000001b5e                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000001b5e        0x4 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000000000001b62                _etext = .
+
+.data           0x0000000000800100      0x3a2 load address 0x0000000000001b62
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.dis_prev
+                0x0000000000800100        0x2 obj/code.cpp.o
+                0x0000000000800100                dis_prev
+ .data.led      0x0000000000800102        0x2 obj/code.cpp.o
+                0x0000000000800102                led
+ .data.CCB      0x0000000000800104       0x12 obj/ee_applcfg.c.o
+                0x0000000000800104                CCB
+ .data.tcb_array
+                0x0000000000800116        0x8 obj/ee_applcfg.c.o
+                0x0000000000800116                tcb_array
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x000000000080011e       0x4c obj/code.cpp.o
+ .rodata.KDB    0x000000000080016a        0xa obj/ee_applcfg.c.o
+                0x000000000080016a                KDB
+ .rodata.CDB    0x0000000000800174        0x6 obj/ee_applcfg.c.o
+                0x0000000000800174                CDB
+ .rodata.tdb_ptr_array
+                0x000000000080017a        0x4 obj/ee_applcfg.c.o
+                0x000000000080017a                tdb_ptr_array
+ .rodata.tdb_array
+                0x000000000080017e       0x1c obj/ee_applcfg.c.o
+                0x000000000080017e                tdb_array
+ .rodata.sdb_array
+                0x000000000080019a        0x4 obj/ee_applcfg.c.o
+                0x000000000080019a                sdb_array
+ .rodata.str1.1
+                0x000000000080019e      0x151 obj/mcp_can.cpp.o
+ .rodata.str1.1
+                0x00000000008002ef      0x195 obj/tasks.cpp.o
+ .rodata._ZTV14HardwareSerial
+                0x0000000000800484       0x12 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+                0x0000000000800484                _ZTV14HardwareSerial
+ .rodata.str1.1
+                0x0000000000800496        0xc /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+                                          0xf (size before relaxing)
+ *(.gnu.linkonce.d*)
+                0x00000000008004a2                . = ALIGN (0x2)
+                0x00000000008004a2                _edata = .
+                0x00000000008004a2                PROVIDE (__data_end, .)
+
+.bss            0x00000000008004a2       0xd7
+                0x00000000008004a2                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss._ZN8SPIClass13interruptSaveE
+                0x00000000008004a2        0x1 obj/SPI.cpp.o
+                0x00000000008004a2                _ZN8SPIClass13interruptSaveE
+ .bss._ZN8SPIClass13interruptMaskE
+                0x00000000008004a3        0x1 obj/SPI.cpp.o
+                0x00000000008004a3                _ZN8SPIClass13interruptMaskE
+ .bss._ZN8SPIClass13interruptModeE
+                0x00000000008004a4        0x1 obj/SPI.cpp.o
+                0x00000000008004a4                _ZN8SPIClass13interruptModeE
+ .bss._ZN8SPIClass11initializedE
+                0x00000000008004a5        0x1 obj/SPI.cpp.o
+                0x00000000008004a5                _ZN8SPIClass11initializedE
+ .bss.SPI       0x00000000008004a6        0x1 obj/SPI.cpp.o
+                0x00000000008004a6                SPI
+ .bss.old_sp    0x00000000008004a7        0x2 obj/code.cpp.o
+                0x00000000008004a7                old_sp
+ .bss.stk_wrong
+                0x00000000008004a9        0x1 obj/code.cpp.o
+                0x00000000008004a9                stk_wrong
+ .bss.CAN       0x00000000008004aa        0xa obj/code.cpp.o
+                0x00000000008004aa                CAN
+ .bss.sn_array  0x00000000008004b4        0x4 obj/ee_applcfg.c.o
+                0x00000000008004b4                sn_array
+ .bss.scb_array
+                0x00000000008004b8        0x2 obj/ee_applcfg.c.o
+                0x00000000008004b8                scb_array
+ .bss.CAN_rec   0x00000000008004ba        0xa obj/tasks.cpp.o
+                0x00000000008004ba                CAN_rec
+ .bss.isr_cnt   0x00000000008004c4        0x2 obj/tasks.cpp.o
+                0x00000000008004c4                isr_cnt
+ .bss.result    0x00000000008004c6        0x2 obj/tasks.cpp.o
+                0x00000000008004c6                result
+ .bss.depth     0x00000000008004c8        0x2 obj/tasks.cpp.o
+                0x00000000008004c8                depth
+ .bss.temp      0x00000000008004ca        0x2 obj/tasks.cpp.o
+                0x00000000008004ca                temp
+ .bss.dis_change
+                0x00000000008004cc        0x2 obj/tasks.cpp.o
+                0x00000000008004cc                dis_change
+ .bss.dis_cur   0x00000000008004ce        0x2 obj/tasks.cpp.o
+                0x00000000008004ce                dis_cur
+ .bss.TaskL1_count
+                0x00000000008004d0        0x2 obj/tasks.cpp.o
+                0x00000000008004d0                TaskL1_count
+ .bss.timer0_fract
+                0x00000000008004d2        0x1 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+ .bss.timer0_millis
+                0x00000000008004d3        0x4 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+                0x00000000008004d3                timer0_millis
+ .bss.timer0_overflow_count
+                0x00000000008004d7        0x4 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+                0x00000000008004d7                timer0_overflow_count
+ .bss.Serial    0x00000000008004db       0x9d /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+                0x00000000008004db                Serial
+ *(COMMON)
+ COMMON         0x0000000000800578        0x1 obj/ee_applcfg.c.o
+                0x0000000000800578                KCB
+                0x0000000000800579                PROVIDE (__bss_end, .)
+                0x0000000000001b62                __data_load_start = LOADADDR (.data)
+                0x0000000000001f04                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800579        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x0000000000800579                _end = .
+                [!provide]                        PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 obj/SPI.cpp.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 obj/code.cpp.o
+ .comment       0x0000000000000011       0x12 obj/ee_applcfg.c.o
+ .comment       0x0000000000000011       0x12 obj/mcp_can.cpp.o
+ .comment       0x0000000000000011       0x12 obj/tasks.cpp.o
+ .comment       0x0000000000000011       0x12 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+ .comment       0x0000000000000011       0x12 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+ .comment       0x0000000000000011       0x12 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+ .comment       0x0000000000000011       0x12 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+ .comment       0x0000000000000011       0x12 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .comment       0x0000000000000011       0x12 /home/yvonne/receiver/erika/lib/libarduinosdk.a(hooks.c.o)
+ .comment       0x0000000000000011       0x12 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .comment       0x0000000000000011       0x12 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_entry_points.c.o)
+ .comment       0x0000000000000011       0x12 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+ .comment       0x0000000000000011       0x12 /home/yvonne/receiver/erika/lib/libee.a(ee_atmega_intvect.c.o)
+ .comment       0x0000000000000011       0x12 /home/yvonne/receiver/erika/lib/libee.a(ee_std_change_context.c.o)
+ .comment       0x0000000000000011       0x12 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_scheduler.c.o)
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x410
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x48 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+ .debug_aranges
+                0x0000000000000048       0x38 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+ .debug_aranges
+                0x0000000000000080       0x68 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+ .debug_aranges
+                0x00000000000000e8       0x48 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+ .debug_aranges
+                0x0000000000000130      0x100 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .debug_aranges
+                0x0000000000000230       0x20 /home/yvonne/receiver/erika/lib/libarduinosdk.a(hooks.c.o)
+ .debug_aranges
+                0x0000000000000250       0x90 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .debug_aranges
+                0x00000000000002e0       0x38 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_entry_points.c.o)
+ .debug_aranges
+                0x0000000000000318       0x48 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+ .debug_aranges
+                0x0000000000000360       0x28 /home/yvonne/receiver/erika/lib/libee.a(ee_atmega_intvect.c.o)
+ .debug_aranges
+                0x0000000000000388       0x20 /home/yvonne/receiver/erika/lib/libee.a(ee_avr8_asm.S.o)
+ .debug_aranges
+                0x00000000000003a8       0x30 /home/yvonne/receiver/erika/lib/libee.a(ee_std_change_context.c.o)
+ .debug_aranges
+                0x00000000000003d8       0x38 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_scheduler.c.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xc103
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x5f4 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_info    0x00000000000005f4      0x2c4 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+ .debug_info    0x00000000000008b8      0x5f5 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+ .debug_info    0x0000000000000ead     0x1e35 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+ .debug_info    0x0000000000002ce2     0x1ac7 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+ .debug_info    0x00000000000047a9     0x2a7c /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .debug_info    0x0000000000007225       0x3a /home/yvonne/receiver/erika/lib/libarduinosdk.a(hooks.c.o)
+ .debug_info    0x000000000000725f     0x17e8 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .debug_info    0x0000000000008a47      0xabc /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_entry_points.c.o)
+ .debug_info    0x0000000000009503      0xf4d /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+ .debug_info    0x000000000000a450      0x777 /home/yvonne/receiver/erika/lib/libee.a(ee_atmega_intvect.c.o)
+ .debug_info    0x000000000000abc7       0x70 /home/yvonne/receiver/erika/lib/libee.a(ee_avr8_asm.S.o)
+ .debug_info    0x000000000000ac37      0x95f /home/yvonne/receiver/erika/lib/libee.a(ee_std_change_context.c.o)
+ .debug_info    0x000000000000b596      0xb6d /home/yvonne/receiver/erika/lib/libee.a(ee_oo_scheduler.c.o)
+
+.debug_abbrev   0x0000000000000000     0x23f6
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x5a2 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_abbrev  0x00000000000005a2      0x143 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+ .debug_abbrev  0x00000000000006e5      0x159 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+ .debug_abbrev  0x000000000000083e      0x478 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+ .debug_abbrev  0x0000000000000cb6      0x3dd /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+ .debug_abbrev  0x0000000000001093      0x498 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .debug_abbrev  0x000000000000152b       0x28 /home/yvonne/receiver/erika/lib/libarduinosdk.a(hooks.c.o)
+ .debug_abbrev  0x0000000000001553      0x3d2 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .debug_abbrev  0x0000000000001925      0x2d5 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_entry_points.c.o)
+ .debug_abbrev  0x0000000000001bfa      0x2d1 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+ .debug_abbrev  0x0000000000001ecb      0x111 /home/yvonne/receiver/erika/lib/libee.a(ee_atmega_intvect.c.o)
+ .debug_abbrev  0x0000000000001fdc       0x14 /home/yvonne/receiver/erika/lib/libee.a(ee_avr8_asm.S.o)
+ .debug_abbrev  0x0000000000001ff0      0x186 /home/yvonne/receiver/erika/lib/libee.a(ee_std_change_context.c.o)
+ .debug_abbrev  0x0000000000002176      0x280 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_scheduler.c.o)
+
+.debug_line     0x0000000000000000     0x28ca
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1a /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_line    0x000000000000001a      0x2e2 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+ .debug_line    0x00000000000002fc      0x2ab /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+ .debug_line    0x00000000000005a7      0x45d /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+ .debug_line    0x0000000000000a04      0x2c3 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+ .debug_line    0x0000000000000cc7      0x6d2 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .debug_line    0x0000000000001399       0x7d /home/yvonne/receiver/erika/lib/libarduinosdk.a(hooks.c.o)
+ .debug_line    0x0000000000001416      0x68c /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .debug_line    0x0000000000001aa2      0x264 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_entry_points.c.o)
+ .debug_line    0x0000000000001d06      0x407 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+ .debug_line    0x000000000000210d      0x185 /home/yvonne/receiver/erika/lib/libee.a(ee_atmega_intvect.c.o)
+ .debug_line    0x0000000000002292       0xda /home/yvonne/receiver/erika/lib/libee.a(ee_avr8_asm.S.o)
+ .debug_line    0x000000000000236c      0x229 /home/yvonne/receiver/erika/lib/libee.a(ee_std_change_context.c.o)
+ .debug_line    0x0000000000002595      0x335 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_scheduler.c.o)
+
+.debug_frame    0x0000000000000000      0xb18
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0xc4 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+ .debug_frame   0x00000000000000c4       0x7c /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+ .debug_frame   0x0000000000000140      0x110 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+ .debug_frame   0x0000000000000250       0xe0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+ .debug_frame   0x0000000000000330      0x3b0 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .debug_frame   0x00000000000006e0       0x24 /home/yvonne/receiver/erika/lib/libarduinosdk.a(hooks.c.o)
+ .debug_frame   0x0000000000000704      0x160 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .debug_frame   0x0000000000000864       0x78 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_entry_points.c.o)
+ .debug_frame   0x00000000000008dc      0x114 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+ .debug_frame   0x00000000000009f0       0x34 /home/yvonne/receiver/erika/lib/libee.a(ee_atmega_intvect.c.o)
+ .debug_frame   0x0000000000000a24       0x44 /home/yvonne/receiver/erika/lib/libee.a(ee_std_change_context.c.o)
+ .debug_frame   0x0000000000000a68       0xb0 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_scheduler.c.o)
+
+.debug_str      0x0000000000000000     0x307e
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x208 /home/yvonne/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_str     0x0000000000000208      0x193 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+                                        0x1d9 (size before relaxing)
+ .debug_str     0x000000000000039b      0x12e /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+                                        0x23e (size before relaxing)
+ .debug_str     0x00000000000004c9     0x11ff /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+                                       0x1310 (size before relaxing)
+ .debug_str     0x00000000000016c8       0xf8 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+                                       0x1153 (size before relaxing)
+ .debug_str     0x00000000000017c0      0x3e7 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+                                        0xfc8 (size before relaxing)
+ .debug_str     0x0000000000001ba7       0x58 /home/yvonne/receiver/erika/lib/libarduinosdk.a(hooks.c.o)
+                                         0xce (size before relaxing)
+ .debug_str     0x0000000000001bff      0xdfb /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+                                       0x1027 (size before relaxing)
+ .debug_str     0x00000000000029fa      0x162 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_entry_points.c.o)
+                                        0x9db (size before relaxing)
+ .debug_str     0x0000000000002b5c      0x2d7 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+                                        0xaed (size before relaxing)
+ .debug_str     0x0000000000002e33       0x59 /home/yvonne/receiver/erika/lib/libee.a(ee_atmega_intvect.c.o)
+                                        0x7bc (size before relaxing)
+ .debug_str     0x0000000000002e8c       0xae /home/yvonne/receiver/erika/lib/libee.a(ee_std_change_context.c.o)
+                                        0x8a8 (size before relaxing)
+ .debug_str     0x0000000000002f3a      0x144 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_scheduler.c.o)
+                                        0x96b (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x4800
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x269 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+ .debug_loc     0x0000000000000269      0x5e3 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+ .debug_loc     0x000000000000084c      0x497 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+ .debug_loc     0x0000000000000ce3      0x187 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+ .debug_loc     0x0000000000000e6a     0x1f0f /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .debug_loc     0x0000000000002d79      0x65a /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .debug_loc     0x00000000000033d3      0x118 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_entry_points.c.o)
+ .debug_loc     0x00000000000034eb      0xa0d /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+ .debug_loc     0x0000000000003ef8      0x2dc /home/yvonne/receiver/erika/lib/libee.a(ee_std_change_context.c.o)
+ .debug_loc     0x00000000000041d4      0x62c /home/yvonne/receiver/erika/lib/libee.a(ee_oo_scheduler.c.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x3d8
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x38 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring.c.o)
+ .debug_ranges  0x0000000000000038       0x28 /home/yvonne/receiver/erika/lib/libarduinosdk.a(wiring_digital.c.o)
+ .debug_ranges  0x0000000000000060       0x70 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial.cpp.o)
+ .debug_ranges  0x00000000000000d0       0x38 /home/yvonne/receiver/erika/lib/libarduinosdk.a(HardwareSerial0.cpp.o)
+ .debug_ranges  0x0000000000000108      0x138 /home/yvonne/receiver/erika/lib/libarduinosdk.a(Print.cpp.o)
+ .debug_ranges  0x0000000000000240       0x10 /home/yvonne/receiver/erika/lib/libarduinosdk.a(hooks.c.o)
+ .debug_ranges  0x0000000000000250       0xb0 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_api_osek.c.o)
+ .debug_ranges  0x0000000000000300       0x40 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_entry_points.c.o)
+ .debug_ranges  0x0000000000000340       0x38 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_sched_partitioned.c.o)
+ .debug_ranges  0x0000000000000378       0x18 /home/yvonne/receiver/erika/lib/libee.a(ee_atmega_intvect.c.o)
+ .debug_ranges  0x0000000000000390       0x20 /home/yvonne/receiver/erika/lib/libee.a(ee_std_change_context.c.o)
+ .debug_ranges  0x00000000000003b0       0x28 /home/yvonne/receiver/erika/lib/libee.a(ee_oo_scheduler.c.o)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(arduino.elf elf32-avr)
+LOAD linker stubs
