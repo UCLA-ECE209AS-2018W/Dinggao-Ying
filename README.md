@@ -1,8 +1,6 @@
 # Car Emulator Testbed
 ### Contribute by: Ying Wang, Dinggao Pan
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 # Incentive
 
 Nowadays, vehicles are not controlled directly by the operateors. Instead, automobiles are controlled by operators via tiny computers inside it - electronic controller units(ECUs). In modern day cars, there are on average around 80 ECUs controlling every aspect of the automobile, from engine to door lock. In advacned luxery cars, there are up to 150 ECUs in sided them. ECUs also collects infomation from sensors connected to them to inform drivers the situation of their cars. With all the ECUs and sensors installed, modern automobiles are prone to be attacked by two ways:
