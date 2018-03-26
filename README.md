@@ -59,6 +59,102 @@ The following link shows the video of attacking on sensor level. In the video, w
 
 https://youtu.be/KrLcR4p-Xyg
 
+# How it works
+1. Download & install Erika 3
+   - Download Erika Enterprise, version 3: http://www.erika-enterprise.com/
+   - Erika 3 support Linux and Window, the following figures show the examples built on Ubuntu 16.04.
+   
+2. Import projects 
+   - Double-click the **eclipse** application located in the eclipse folder extracted from the RT-Druid Package. Click on the Welcome tab-sheet close button to show the default RT-Druid Eclipse IDE C/C++ perspective as shown in the following figure:
+   
+   ![alt_text](https://github.com/UCLA-ECE209AS-2018W/Dinggao-Ying/blob/master/imgs/1.png)
+
+   - Click on *File->Import*, and then go to *General->Existing Porjects into Workspace* as the following figure. And click *Next*.
+   
+   ![alt_text](https://github.com/UCLA-ECE209AS-2018W/Dinggao-Ying/blob/master/imgs/2.png)
+   
+   - Choose path of the projects, where you download. Then click *Finish*, as the following figure:
+   
+   ![alt_text](https://github.com/UCLA-ECE209AS-2018W/Dinggao-Ying/blob/master/imgs/3.png)
+
+3. RT-Druid Configuration
+   - Click on the *Window->Preferences* menu entry as shown in the following figure:
+   
+   ![alt_text](https://github.com/UCLA-ECE209AS-2018W/Dinggao-Ying/blob/master/imgs/4.png)
+   
+   - Click the *Generator Properties* entry in the OIL section of the left panel to show the RT-Druid Generator Properties to configure.
+   - Double-click on the *Arduino SDK* property to configure the Arduino SDK installation path. Browse the file-system to select the Arduino SDK path
+   - Double-click on the *Arduino Serial Port* property to configure the Arduino Serial Port. Type the ttyACM (for Linux)/ COM (for Windows) Port where the Arduino UNO Board is connected.
+   - Double-click on the *Arduino Serial Baudrate* Property to configure the Arduino Serial Baudrate to set it to 115200 (the Arduino UNO Bootloader Baudrate).
+   - Confirm the configuration properties as shown in the following figure:
+   
+   ![alt_text](https://github.com/UCLA-ECE209AS-2018W/Dinggao-Ying/blob/master/imgs/5.png)
+   
+4. ERIKA distribution clean
+   - Right-Click on the *project* (e.g. distance_sensor) into Eclipse Project Explorer panel and click on *Clean Erika* context-menu entry.
+   - The Clean up Erika Files dialog window will appear as shown in the following figure:
+
+   ![alt_text](https://github.com/UCLA-ECE209AS-2018W/Dinggao-Ying/blob/master/imgs/6.png)
+   
+   - Click on the *Yes* button to clean the whole ERIKA distribution.
+  
+   - NOTE: the distribution folder will be automatically regenerated if the flag *Build Automatically* is enabled.
+
+   ![alt_text](https://github.com/UCLA-ECE209AS-2018W/Dinggao-Ying/blob/master/imgs/7.png)
+   
+5. ERIKA project build
+   - If the flag *Build Automatically* isn't enabled, right-click on *project* into Eclipse Project Explorer panel and click on *Build Project* context-menu entry.
+   
+   - For linux:
+     - Go to *out->makefile*, the default generate one should be looks like the following figure:
+     
+     ![alt_text](https://github.com/UCLA-ECE209AS-2018W/Dinggao-Ying/blob/master/imgs/8.png)
+     
+     - Change it as following:
+     
+     ```
+     export  ARDUINO_PORT        = /dev/ttyACM0
+     export  ARDUINO_BAUDRATE    = 11520
+     export  ARDUINO_MCU         = atmega328p
+     export  ARDUINO_SDK_FILES   = /home/yvonne/Downloads/arduino-1.8.5
+     
+     upload:
+	   @$(ARDUINO_SDK_FILES)/hardware/tools/avr/bin/avrdude \
+	   -C$(ARDUINO_SDK_FILES)/hardware/tools/avr/etc/avrdude.conf \
+	   -p$(ARDUINO_MCU) -carduino -P$(ARDUINO_PORT) \
+	   -b$(ARDUINO_BAUDRATE) -D -Uflash:w:arduino.hex:i
+     ```
+    
+     - Note: if the makefile has been changed, *Build Project* one more time.
+
+6. Add Upload Build Target
+   - The upload build target has been created if you download the file from this repo.
+   - Right-Click on *project* into Eclipse Project Explorer panel and click on *Build Target -> Create...*. 
+   - Uncheck the *Run all project builders* check-box and then click on OK button, as shown in the following figure:
+   
+   ![alt_text](https://github.com/UCLA-ECE209AS-2018W/Dinggao-Ying/blob/master/imgs/9.png)
+   
+7. Application Upload on Arduino Board
+   - Double-Click on *upload build target* created in the previous section to start the upload process.
+   - The upload process ends successfully when *"Project Finished"* shows in console.
+   
+8. After uploading 4 projects from this repo, you can check the serial port of the *receiver*, which will print the control commands of the car based on the sensor data reading from CAN bus.
+
+9. Sensor level attack
+   - The project is build with python3. Install the library:
+   
+   ```
+   pip install pyserial
+   ```
+
+   - run the python code:
+   
+   ```
+   python sensor_level_attack.py
+   ```
+
+   - The pyhone code get the sensor data from serial port in real-time (before sending the data to CAN bus), change the data in some reasonal way, and send it back. In this way, the data sent to CAN bus is the wrong one, which will lead the unreasonable control system. As the video shows, with attacking code, it results in "gas up" as the block comes closer to the distance sensor.
+
 
 # Reference
 
