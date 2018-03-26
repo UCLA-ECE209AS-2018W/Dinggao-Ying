@@ -155,6 +155,18 @@ https://youtu.be/KrLcR4p-Xyg
 
    - The pyhone code get the sensor data from serial port in real-time (before sending the data to CAN bus), change the data in some reasonal way, and send it back. In this way, the data sent to CAN bus is the wrong one, which will lead the unreasonable control system. As the video shows, with attacking code, it results in "gas up" as the block comes closer to the distance sensor.
 
+# Sensor-level attack
+1. Distance sensor
+   - Assume the distance sensor is for the Autonomous Cruise Control (ACC) system, which let car to keep a certain distance from the front car. The car will automatically speed up a little bit when the front car getting further (the distance getting larger) and slow down when the front car getting closer (the distance getting smaller).
+   - Attacking the distance sensor: when the distance gets smaller, we change is to a large data, which may miss up the control system.
+   
+2. Temperature sensor
+   - Assume the temperature sensor is to sense the water temperature of a car. If the temperature is high, fan should speed up.
+   - Attacking the temperature sensor: when the temperature is higher to a threshold (e.g 90°C), we will keep it as threshold temperature. In this way, no warning to the driver, and continuously driving under high temperature will lead to engine break.
+
+3. Water depth sensor
+   - Assume the water depth sensor is to sense the oil tank. Regularly, when the data of oil tank is low, there is a warning to the driver to add more gas.
+   - Attacking the water depth sensor: as the data from water depth sensor get lower to a threshold point, we will keep it high. Without getting warning of low oil, it may result in engine stop.
 
 # Reference
 
